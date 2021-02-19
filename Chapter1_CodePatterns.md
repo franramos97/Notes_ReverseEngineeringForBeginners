@@ -18,3 +18,5 @@ Cada CPU tiene su propio ISA:
 
 - **SISC**: Orientado al paralelismo. RISC es un subconjunto del SISC.
 
+https://github.com/franramos97/Notes_ReverseEngineeringForBeginners/blob/main/Esquema.jpeg
+
