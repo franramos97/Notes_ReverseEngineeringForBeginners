@@ -20,11 +20,21 @@ Cada CPU tiene su propio ISA:
 
 ![Esquema](https://github.com/franramos97/Notes_ReverseEngineeringForBeginners/blob/main/Esquema.jpeg)
 
-``` import C
+```
+#C:
 int f()
 {
     return 123;
 }
+
+#x86:
+
+f:
+        push    rbp
+        mov     rbp, rsp
+        mov     eax, 123  #por convenio EAX se usa para devolver el valor del return
+        pop     rbp
+        ret               #'ret' devuelve la ejecución al caller, que recibe el valor del registro EAX
 
 ```
 
