@@ -1,4 +1,4 @@
-#Capítulo 1: **Code Patterns**
+# Capítulo 1: **Code Patterns**
 
 La optimización puede conseguirse en cuanto al **tamaño del código** o la **velocidad del código**.
 3 niveles de optimización en los compiladores.
