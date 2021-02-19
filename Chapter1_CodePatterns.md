@@ -14,9 +14,17 @@ Cada CPU tiene su propio ISA:
 
 - **CISC**: Tiene un conjunto de instrucciones amplio y permite operaciones complejas entre operandos de la memoria y registros internos. **Dificulta el paralelismo** entre instrucciones (familia x86, familia 8080...) 
 
-- **RISC**: Instrucciones de tamaño fijo. Solo las instrucciones de carga y almacenamiento acceden a la memoria de datos. **Facilita el paralelismo**. (Lenguaje MIPS está basado en el diseño RISC)
+- **RISC**: Instrucciones de tamaño fijo. Solo las instrucciones de carga y almacenamiento acceden a la memoria de datos. **Facilita el paralelismo**. (ARM y MIPS son CPUs RISC)
 
 - **SISC**: Orientado al paralelismo. RISC es un subconjunto del SISC.
 
 ![Esquema](https://github.com/franramos97/Notes_ReverseEngineeringForBeginners/blob/main/Esquema.jpeg)
+
+``` import C
+int f()
+{
+    return 123;
+}
+
+```
 
