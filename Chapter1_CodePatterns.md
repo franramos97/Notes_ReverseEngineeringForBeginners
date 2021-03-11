@@ -22,6 +22,7 @@ Cada CPU tiene su propio ISA:
 
 ```
 #C:
+
 int f()
 {
     return 123;
@@ -32,9 +33,12 @@ int f()
 f:
         push    rbp
         mov     rbp, rsp
-        mov     eax, 123  #por convenio EAX se usa para devolver el valor del return
+        mov     eax, 123    #por convenio: EAX se usa para devolver el valor del return
         pop     rbp
-        ret               #'ret' devuelve la ejecución al caller, que recibe el valor del registro EAX
+        ret                 #'ret' devuelve la ejecución al caller, que recibe el valor del registro EAX
 
 ```
+
+
+
 
